@@ -21,7 +21,7 @@ header
 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 15vh;
     background: #efefef;
@@ -31,13 +31,12 @@ a
     text-decoration: none;
     color: black;
 }
-
 .logo
 {
     padding: 20px;
+    width: 200px;
     font-size: 40px;
     font-weight: bold;
-    margin: 30px;
     background: black;
     color: white;
 }
@@ -65,7 +64,7 @@ header li a
 .Cont .info
 {
     height: 90%;
-    width: 50%;
+    width: 30%;
 }
 .Cont .info .t
 {
@@ -97,7 +96,7 @@ button
 .Cont .imagen
 {
     background: #f2f2f2;
-    width: 35%;
+    width: 30%;
     height: 90%;
     border-radius: 10px;
 }
@@ -105,8 +104,9 @@ button
 .dest
 {
     background: #efefef;
-    width: 100%;
+    width: 80%;
     height: 50vh;
+    padding: 0 10%;
 }
 .h
 {
@@ -132,7 +132,7 @@ button
 .games
 {
     width: 100%;
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -150,11 +150,11 @@ button
     background: white;
     border-radius: 20px;
 }
- .imagen
+.game .imagen
 {    
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    justify-items: left;
     justify-content: space-between;
     width: 90%;
     height: 75%;
@@ -164,8 +164,9 @@ button
 }
 .game .imagen i
 {
+    text-align: right;
     margin: 10px;
-    color: #5f5f5f;
+    color: #C1C1C1;
 }
 .game .imagen div
 {
@@ -194,7 +195,8 @@ span
 
 .listas
 {
-    width: 100%;
+    width: 80%;
+    padding: 0 10%;
     height: 100vh;
 }
 
@@ -360,14 +362,22 @@ input[type="file"]
 
 .init
 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
     width: 75%;
     border-radius: 10px;
     background: #efefef;
 }
+.Cont .initInf
+{
+    width: 50%;
+    margin: 40px;
+}
 .card
 {
-    margin: 100px 0;
-    width: 100%;
+    margin: 30px 0;
+    width: 95%;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -382,11 +392,12 @@ input[type="file"]
     padding: 20px;
     border-radius: 10px;
     background: #efefef;
-    width: 500px;
+    width: 650px;
+    height: 600px;
 }
 .images
 {
-    height: 500px;
+    width: 300px;
     background: white;
 }
 
@@ -394,7 +405,15 @@ input[type="file"]
 {
     height: 100%;
     border-radius: 10px;
-    margin: 20px 0;
+    margin: 5px 0;
     width: 100%;
     background: #efefef;
+}
+
+.Foodp1
+{
+    width: 400px;
+}
+.Foodp1 div{
+    margin: 10px 0;
 }
